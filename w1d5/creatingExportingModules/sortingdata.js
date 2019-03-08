@@ -8,11 +8,11 @@ function sortingData() {
 }
     
 module.exports = {
-    storesort: function (number) {
+    store: function (number) {
         for (i=0;i<number.length;i++) {
             list.push(number[i]);
         }
-        sortingData();
         return list;
-    }
+    },
+    sort: sortingData
 }
